@@ -18,7 +18,7 @@ LDFLAGS_PROGRAM += $(LDFLAGS_GNULIB)
 CPPFLAGS_PROGRAM += $(CPPFLAGS_GNULIB)
 CCASFLAGS_PROGRAM += $(CCASFLAGS_GNULIB)
 
-CROSSBINPATH = $(builddir)../build-i686
+CROSSBINPATH = $(builddir)
 
 include $(srcdir)/Makefile.util.am
 
