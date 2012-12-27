@@ -13873,7 +13873,7 @@ AM_LDFLAGS = $(HOST_LDFLAGS)
 AM_CPPFLAGS = $(HOST_CPPFLAGS) $(CPPFLAGS_DEFAULT)
 AM_CCASFLAGS = $(HOST_CCASFLAGS) $(CCASFLAGS_DEFAULT)
 ACLOCAL_AMFLAGS = -I m4
-CROSSBINPATH = $(builddir)
+CROSSBINPATH = $(builddir)/
 libgrubkern_a_SOURCES = $(am__append_10) $(am__append_19) \
 	$(am__append_28) $(am__append_37) $(am__append_46) \
 	$(am__append_55) $(am__append_64) $(am__append_73) \
@@ -25100,36 +25100,36 @@ grub_fstest_init.lst: libgrub.pp grub_fstest.pp
 grub_fstest_init.c: grub_fstest_init.lst $(top_srcdir)/geninit.sh
 	sh $(top_srcdir)/geninit.sh `cat $<` > $@ || (rm -f $@; exit 1)
 @COND_STARFIELD_TRUE@dejavu_10.pf2: $(DJVU_FONT_SOURCE) grub-mkfont
-@COND_STARFIELD_TRUE@	$(CROSSBINPATH)/grub-mkfont -s 10 -o $@ $(DJVU_FONT_SOURCE)
+@COND_STARFIELD_TRUE@	$(CROSSBINPATH)grub-mkfont -s 10 -o $@ $(DJVU_FONT_SOURCE)
 @COND_STARFIELD_TRUE@dejavu_12.pf2: $(DJVU_FONT_SOURCE) grub-mkfont
-@COND_STARFIELD_TRUE@	$(CROSSBINPATH)/grub-mkfont -s 12 -o $@ $(DJVU_FONT_SOURCE)
+@COND_STARFIELD_TRUE@	$(CROSSBINPATH)grub-mkfont -s 12 -o $@ $(DJVU_FONT_SOURCE)
 @COND_STARFIELD_TRUE@dejavu_14.pf2: $(DJVU_FONT_SOURCE) grub-mkfont
-@COND_STARFIELD_TRUE@	$(CROSSBINPATH)/grub-mkfont -s 14 -o $@ $(DJVU_FONT_SOURCE)
+@COND_STARFIELD_TRUE@	$(CROSSBINPATH)grub-mkfont -s 14 -o $@ $(DJVU_FONT_SOURCE)
 @COND_STARFIELD_TRUE@dejavu_bold_14.pf2: $(DJVU_FONT_SOURCE) grub-mkfont
-@COND_STARFIELD_TRUE@	$(CROSSBINPATH)/grub-mkfont -b -s 14 -o $@ $(DJVU_FONT_SOURCE)
+@COND_STARFIELD_TRUE@	$(CROSSBINPATH)grub-mkfont -b -s 14 -o $@ $(DJVU_FONT_SOURCE)
 @COND_STARFIELD_TRUE@dejavu_16.pf2: $(DJVU_FONT_SOURCE) grub-mkfont
-@COND_STARFIELD_TRUE@	$(CROSSBINPATH)/grub-mkfont -s 16 -o $@ $(DJVU_FONT_SOURCE)
+@COND_STARFIELD_TRUE@	$(CROSSBINPATH)grub-mkfont -s 16 -o $@ $(DJVU_FONT_SOURCE)
 
 unicode.pf2: $(FONT_SOURCE) grub-mkfont
-	$(CROSSBINPATH)/grub-mkfont -o $@ $(FONT_SOURCE)
+	$(CROSSBINPATH)grub-mkfont -o $@ $(FONT_SOURCE)
 
 ascii.pf2: $(FONT_SOURCE) grub-mkfont
-	$(CROSSBINPATH)/grub-mkfont -o $@ $(FONT_SOURCE) -r 0x0-0x7f,$(UNICODE_ARROWS),$(UNICODE_LINES)
+	$(CROSSBINPATH)grub-mkfont -o $@ $(FONT_SOURCE) -r 0x0-0x7f,$(UNICODE_ARROWS),$(UNICODE_LINES)
 
 euro.pf2: $(FONT_SOURCE) grub-mkfont
-	$(CROSSBINPATH)/grub-mkfont -o $@ $(FONT_SOURCE) -r 0x0-0x4ff,0x1e00-0x1fff,$(UNICODE_ARROWS),$(UNICODE_LINES)
+	$(CROSSBINPATH)grub-mkfont -o $@ $(FONT_SOURCE) -r 0x0-0x4ff,0x1e00-0x1fff,$(UNICODE_ARROWS),$(UNICODE_LINES)
 
 ascii.bitmaps: $(FONT_SOURCE) grub-mkfont
-	$(CROSSBINPATH)/grub-mkfont --ascii-bitmaps -o $@ $(FONT_SOURCE)
+	$(CROSSBINPATH)grub-mkfont --ascii-bitmaps -o $@ $(FONT_SOURCE)
 
 ascii.h: ascii.bitmaps grub-bin2h
-	$(CROSSBINPATH)/grub-bin2h ascii_bitmaps < $< > $@
+	$(CROSSBINPATH)grub-bin2h ascii_bitmaps < $< > $@
 
 widthspec.bin: $(FONT_SOURCE) grub-mkfont
-	$(CROSSBINPATH)/grub-mkfont --width-spec -o $@ $(FONT_SOURCE)
+	$(CROSSBINPATH)grub-mkfont --width-spec -o $@ $(FONT_SOURCE)
 
 widthspec.h: widthspec.bin grub-bin2h
-	$(CROSSBINPATH)/grub-bin2h widthspec < $< > $@
+	$(CROSSBINPATH)grub-bin2h widthspec < $< > $@
 
 linux.init.x86_64: $(srcdir)/grub-core/tests/boot/linux.init-x86_64.S
 	$(TARGET_CC) -o $@ $< -m64 -nostdlib -nostdinc -DSUCCESSFUL_BOOT_STRING=\"$(SUCCESSFUL_BOOT_STRING)\"

@@ -18,7 +18,7 @@ LDFLAGS_PROGRAM += $(LDFLAGS_GNULIB)
 CPPFLAGS_PROGRAM += $(CPPFLAGS_GNULIB)
 CCASFLAGS_PROGRAM += $(CCASFLAGS_GNULIB)
 
-CROSSBINPATH = $(builddir)
+CROSSBINPATH = $(builddir)/
 
 include $(srcdir)/Makefile.util.am
 
@@ -73,15 +73,15 @@ starfield_theme_files = $(srcdir)/themes/starfield/blob_w.png $(srcdir)/themes/s
 if COND_STARFIELD
 starfield_DATA = dejavu_10.pf2 dejavu_12.pf2 dejavu_bold_14.pf2 dejavu_14.pf2 dejavu_16.pf2 $(starfield_theme_files)
 dejavu_10.pf2: $(DJVU_FONT_SOURCE) grub-mkfont
-	$(CROSSBINPATH)/grub-mkfont -s 10 -o $@ $(DJVU_FONT_SOURCE)
+	$(CROSSBINPATH)grub-mkfont -s 10 -o $@ $(DJVU_FONT_SOURCE)
 dejavu_12.pf2: $(DJVU_FONT_SOURCE) grub-mkfont
-	$(CROSSBINPATH)/grub-mkfont -s 12 -o $@ $(DJVU_FONT_SOURCE)
+	$(CROSSBINPATH)grub-mkfont -s 12 -o $@ $(DJVU_FONT_SOURCE)
 dejavu_14.pf2: $(DJVU_FONT_SOURCE) grub-mkfont
-	$(CROSSBINPATH)/grub-mkfont -s 14 -o $@ $(DJVU_FONT_SOURCE)
+	$(CROSSBINPATH)grub-mkfont -s 14 -o $@ $(DJVU_FONT_SOURCE)
 dejavu_bold_14.pf2: $(DJVU_FONT_SOURCE) grub-mkfont
-	$(CROSSBINPATH)/grub-mkfont -b -s 14 -o $@ $(DJVU_FONT_SOURCE)
+	$(CROSSBINPATH)grub-mkfont -b -s 14 -o $@ $(DJVU_FONT_SOURCE)
 dejavu_16.pf2: $(DJVU_FONT_SOURCE) grub-mkfont
-	$(CROSSBINPATH)/grub-mkfont -s 16 -o $@ $(DJVU_FONT_SOURCE)
+	$(CROSSBINPATH)grub-mkfont -s 16 -o $@ $(DJVU_FONT_SOURCE)
 else
 starfield_DATA = 
 endif
@@ -90,7 +90,7 @@ EXTRA_DIST += $(starfield_theme_files)
 EXTRA_DIST += $(srcdir)/themes/starfield/src/slider_s.xcf $(srcdir)/themes/starfield/src/slider_n.xcf $(srcdir)/themes/starfield/src/slider_c.xcf $(srcdir)/themes/starfield/src/blob_nw.xcf $(srcdir)/themes/starfield/src/bootmenu/center.xcf $(srcdir)/themes/starfield/src/bootmenu/corner.xcf $(srcdir)/themes/starfield/src/bootmenu/side.xcf $(srcdir)/themes/starfield/src/terminalbox/side.xcf $(srcdir)/themes/starfield/src/terminalbox/corner.xcf $(srcdir)/themes/starfield/src/terminalbox/center.xcf
 
 unicode.pf2: $(FONT_SOURCE) grub-mkfont
-	$(CROSSBINPATH)/grub-mkfont -o $@ $(FONT_SOURCE)
+	$(CROSSBINPATH)grub-mkfont -o $@ $(FONT_SOURCE)
 CLEANFILES += unicode.pf2
 
 # Arrows and lines are needed to draw the menu, so always include them
@@ -98,27 +98,27 @@ UNICODE_ARROWS=0x2190-0x2193
 UNICODE_LINES=0x2501-0x251B
 
 ascii.pf2: $(FONT_SOURCE) grub-mkfont
-	$(CROSSBINPATH)/grub-mkfont -o $@ $(FONT_SOURCE) -r 0x0-0x7f,$(UNICODE_ARROWS),$(UNICODE_LINES)
+	$(CROSSBINPATH)grub-mkfont -o $@ $(FONT_SOURCE) -r 0x0-0x7f,$(UNICODE_ARROWS),$(UNICODE_LINES)
 CLEANFILES += ascii.pf2
 
 euro.pf2: $(FONT_SOURCE) grub-mkfont
-	$(CROSSBINPATH)/grub-mkfont -o $@ $(FONT_SOURCE) -r 0x0-0x4ff,0x1e00-0x1fff,$(UNICODE_ARROWS),$(UNICODE_LINES)
+	$(CROSSBINPATH)grub-mkfont -o $@ $(FONT_SOURCE) -r 0x0-0x4ff,0x1e00-0x1fff,$(UNICODE_ARROWS),$(UNICODE_LINES)
 CLEANFILES += euro.pf2
 
 ascii.bitmaps: $(FONT_SOURCE) grub-mkfont
-	$(CROSSBINPATH)/grub-mkfont --ascii-bitmaps -o $@ $(FONT_SOURCE)
+	$(CROSSBINPATH)grub-mkfont --ascii-bitmaps -o $@ $(FONT_SOURCE)
 CLEANFILES += ascii.bitmaps
 
 ascii.h: ascii.bitmaps grub-bin2h
-	$(CROSSBINPATH)/grub-bin2h ascii_bitmaps < $< > $@
+	$(CROSSBINPATH)grub-bin2h ascii_bitmaps < $< > $@
 CLEANFILES += ascii.h $(top_builddir)/grub-core/include/ascii.h
 
 widthspec.bin: $(FONT_SOURCE) grub-mkfont
-	$(CROSSBINPATH)/grub-mkfont --width-spec -o $@ $(FONT_SOURCE)
+	$(CROSSBINPATH)grub-mkfont --width-spec -o $@ $(FONT_SOURCE)
 CLEANFILES += widthspec.bin
 
 widthspec.h: widthspec.bin grub-bin2h
-	$(CROSSBINPATH)/grub-bin2h widthspec < $< > $@
+	$(CROSSBINPATH)grub-bin2h widthspec < $< > $@
 CLEANFILES += widthspec.h
 
 # Install config.h into platformdir
