@@ -3361,7 +3361,7 @@ CLEANFILES += grub-mount.1
 endif
 grub_mount_SOURCES  = util/grub-mount.c grub-core/kern/emu/hostfs.c grub-core/disk/host.c 
 nodist_grub_mount_SOURCES  = grub_fstest_init.c 
-grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse  -lpthread -lrt
+grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse  -lpthread -lrt -ldl
 grub_mount_CFLAGS  = $(AM_CFLAGS) $(CFLAGS_PROGRAM) 
 grub_mount_LDFLAGS  = $(AM_LDFLAGS) $(LDFLAGS_PROGRAM) 
 grub_mount_CPPFLAGS  = $(AM_CPPFLAGS) $(CPPFLAGS_PROGRAM) 
@@ -3386,7 +3386,7 @@ CLEANFILES += grub-mount.1
 endif
 grub_mount_SOURCES  = util/grub-mount.c grub-core/kern/emu/hostfs.c grub-core/disk/host.c 
 nodist_grub_mount_SOURCES  = grub_fstest_init.c 
-grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt
+grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt -ldl
 grub_mount_CFLAGS  = $(AM_CFLAGS) $(CFLAGS_PROGRAM) 
 grub_mount_LDFLAGS  = $(AM_LDFLAGS) $(LDFLAGS_PROGRAM) 
 grub_mount_CPPFLAGS  = $(AM_CPPFLAGS) $(CPPFLAGS_PROGRAM) 
@@ -3411,7 +3411,7 @@ CLEANFILES += grub-mount.1
 endif
 grub_mount_SOURCES  = util/grub-mount.c grub-core/kern/emu/hostfs.c grub-core/disk/host.c 
 nodist_grub_mount_SOURCES  = grub_fstest_init.c 
-grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt
+grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt -ldl
 grub_mount_CFLAGS  = $(AM_CFLAGS) $(CFLAGS_PROGRAM) 
 grub_mount_LDFLAGS  = $(AM_LDFLAGS) $(LDFLAGS_PROGRAM) 
 grub_mount_CPPFLAGS  = $(AM_CPPFLAGS) $(CPPFLAGS_PROGRAM) 
@@ -3436,7 +3436,7 @@ CLEANFILES += grub-mount.1
 endif
 grub_mount_SOURCES  = util/grub-mount.c grub-core/kern/emu/hostfs.c grub-core/disk/host.c 
 nodist_grub_mount_SOURCES  = grub_fstest_init.c 
-grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt
+grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt -ldl
 grub_mount_CFLAGS  = $(AM_CFLAGS) $(CFLAGS_PROGRAM) 
 grub_mount_LDFLAGS  = $(AM_LDFLAGS) $(LDFLAGS_PROGRAM) 
 grub_mount_CPPFLAGS  = $(AM_CPPFLAGS) $(CPPFLAGS_PROGRAM) 
@@ -3461,7 +3461,7 @@ CLEANFILES += grub-mount.1
 endif
 grub_mount_SOURCES  = util/grub-mount.c grub-core/kern/emu/hostfs.c grub-core/disk/host.c 
 nodist_grub_mount_SOURCES  = grub_fstest_init.c 
-grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt
+grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt -ldl
 grub_mount_CFLAGS  = $(AM_CFLAGS) $(CFLAGS_PROGRAM) 
 grub_mount_LDFLAGS  = $(AM_LDFLAGS) $(LDFLAGS_PROGRAM) 
 grub_mount_CPPFLAGS  = $(AM_CPPFLAGS) $(CPPFLAGS_PROGRAM) 
@@ -3486,7 +3486,7 @@ CLEANFILES += grub-mount.1
 endif
 grub_mount_SOURCES  = util/grub-mount.c grub-core/kern/emu/hostfs.c grub-core/disk/host.c 
 nodist_grub_mount_SOURCES  = grub_fstest_init.c 
-grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt
+grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt -ldl
 grub_mount_CFLAGS  = $(AM_CFLAGS) $(CFLAGS_PROGRAM) 
 grub_mount_LDFLAGS  = $(AM_LDFLAGS) $(LDFLAGS_PROGRAM) 
 grub_mount_CPPFLAGS  = $(AM_CPPFLAGS) $(CPPFLAGS_PROGRAM) 
@@ -3511,7 +3511,7 @@ CLEANFILES += grub-mount.1
 endif
 grub_mount_SOURCES  = util/grub-mount.c grub-core/kern/emu/hostfs.c grub-core/disk/host.c 
 nodist_grub_mount_SOURCES  = grub_fstest_init.c 
-grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt
+grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt -ldl
 grub_mount_CFLAGS  = $(AM_CFLAGS) $(CFLAGS_PROGRAM) 
 grub_mount_LDFLAGS  = $(AM_LDFLAGS) $(LDFLAGS_PROGRAM) 
 grub_mount_CPPFLAGS  = $(AM_CPPFLAGS) $(CPPFLAGS_PROGRAM) 
@@ -3536,7 +3536,7 @@ CLEANFILES += grub-mount.1
 endif
 grub_mount_SOURCES  = util/grub-mount.c grub-core/kern/emu/hostfs.c grub-core/disk/host.c 
 nodist_grub_mount_SOURCES  = grub_fstest_init.c 
-grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt
+grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt -ldl
 grub_mount_CFLAGS  = $(AM_CFLAGS) $(CFLAGS_PROGRAM) 
 grub_mount_LDFLAGS  = $(AM_LDFLAGS) $(LDFLAGS_PROGRAM) 
 grub_mount_CPPFLAGS  = $(AM_CPPFLAGS) $(CPPFLAGS_PROGRAM) 
@@ -3561,7 +3561,7 @@ CLEANFILES += grub-mount.1
 endif
 grub_mount_SOURCES  = util/grub-mount.c grub-core/kern/emu/hostfs.c grub-core/disk/host.c 
 nodist_grub_mount_SOURCES  = grub_fstest_init.c 
-grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt
+grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt -ldl
 grub_mount_CFLAGS  = $(AM_CFLAGS) $(CFLAGS_PROGRAM) 
 grub_mount_LDFLAGS  = $(AM_LDFLAGS) $(LDFLAGS_PROGRAM) 
 grub_mount_CPPFLAGS  = $(AM_CPPFLAGS) $(CPPFLAGS_PROGRAM) 
@@ -3586,7 +3586,7 @@ CLEANFILES += grub-mount.1
 endif
 grub_mount_SOURCES  = util/grub-mount.c grub-core/kern/emu/hostfs.c grub-core/disk/host.c 
 nodist_grub_mount_SOURCES  = grub_fstest_init.c 
-grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt
+grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt -ldl
 grub_mount_CFLAGS  = $(AM_CFLAGS) $(CFLAGS_PROGRAM) 
 grub_mount_LDFLAGS  = $(AM_LDFLAGS) $(LDFLAGS_PROGRAM) 
 grub_mount_CPPFLAGS  = $(AM_CPPFLAGS) $(CPPFLAGS_PROGRAM) 
@@ -3611,7 +3611,7 @@ CLEANFILES += grub-mount.1
 endif
 grub_mount_SOURCES  = util/grub-mount.c grub-core/kern/emu/hostfs.c grub-core/disk/host.c 
 nodist_grub_mount_SOURCES  = grub_fstest_init.c 
-grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt
+grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt -ldl
 grub_mount_CFLAGS  = $(AM_CFLAGS) $(CFLAGS_PROGRAM) 
 grub_mount_LDFLAGS  = $(AM_LDFLAGS) $(LDFLAGS_PROGRAM) 
 grub_mount_CPPFLAGS  = $(AM_CPPFLAGS) $(CPPFLAGS_PROGRAM) 
@@ -3636,7 +3636,7 @@ CLEANFILES += grub-mount.1
 endif
 grub_mount_SOURCES  = util/grub-mount.c grub-core/kern/emu/hostfs.c grub-core/disk/host.c 
 nodist_grub_mount_SOURCES  = grub_fstest_init.c 
-grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt
+grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt -ldl
 grub_mount_CFLAGS  = $(AM_CFLAGS) $(CFLAGS_PROGRAM) 
 grub_mount_LDFLAGS  = $(AM_LDFLAGS) $(LDFLAGS_PROGRAM) 
 grub_mount_CPPFLAGS  = $(AM_CPPFLAGS) $(CPPFLAGS_PROGRAM) 
@@ -3661,7 +3661,7 @@ CLEANFILES += grub-mount.1
 endif
 grub_mount_SOURCES  = util/grub-mount.c grub-core/kern/emu/hostfs.c grub-core/disk/host.c 
 nodist_grub_mount_SOURCES  = grub_fstest_init.c 
-grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt
+grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt -ldl
 grub_mount_CFLAGS  = $(AM_CFLAGS) $(CFLAGS_PROGRAM) 
 grub_mount_LDFLAGS  = $(AM_LDFLAGS) $(LDFLAGS_PROGRAM) 
 grub_mount_CPPFLAGS  = $(AM_CPPFLAGS) $(CPPFLAGS_PROGRAM) 
@@ -3686,7 +3686,7 @@ CLEANFILES += grub-mount.1
 endif
 grub_mount_SOURCES  = util/grub-mount.c grub-core/kern/emu/hostfs.c grub-core/disk/host.c 
 nodist_grub_mount_SOURCES  = grub_fstest_init.c 
-grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt
+grub_mount_LDADD  = libgrubmods.a libgrubgcry.a libgrubkern.a grub-core/gnulib/libgnu.a $(LIBINTL) $(LIBDEVMAPPER) $(LIBZFS) $(LIBNVPAIR) -lfuse -lpthread -lrt -ldl
 grub_mount_CFLAGS  = $(AM_CFLAGS) $(CFLAGS_PROGRAM) 
 grub_mount_LDFLAGS  = $(AM_LDFLAGS) $(LDFLAGS_PROGRAM) 
 grub_mount_CPPFLAGS  = $(AM_CPPFLAGS) $(CPPFLAGS_PROGRAM) 
