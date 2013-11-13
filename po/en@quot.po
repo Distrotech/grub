@@ -1,7 +1,7 @@
 # English translations for grub package.
-# Copyright (C) 2012 Free Software Foundation, Inc.
+# Copyright (C) 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the grub package.
-# Automatically generated, 2012.
+# Automatically generated, 2013.
 #
 # All this catalog "translates" are quotation characters.
 # The msgids must be ASCII and therefore cannot contain real quotation
@@ -29,8 +29,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grub 2.00\n"
 "Report-Msgid-Bugs-To: bug-grub@gnu.org\n"
-"POT-Creation-Date: 2012-06-27 22:55+0200\n"
-"PO-Revision-Date: 2012-06-27 22:55+0200\n"
+"POT-Creation-Date: 2013-11-13 23:05+0200\n"
+"PO-Revision-Date: 2013-11-13 23:05+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: en@quot\n"
@@ -5171,6 +5171,7 @@ msgid "invalid line format: %s"
 msgstr "invalid line format: %s"
 
 #: util/grub.d/00_header.in:131
+#, c-format
 msgid ""
 "Requested serial terminal but GRUB_SERIAL_COMMAND is unspecified. Default "
 "parameters will be used."
@@ -5179,40 +5180,49 @@ msgstr ""
 "parameters will be used."
 
 #: util/grub.d/00_header.in:222
+#, c-format
 msgid "Found theme: %s\\n"
 msgstr "Found theme: %s\\n"
 
 #: util/grub.d/00_header.in:258
+#, c-format
 msgid "Found background: %s\\n"
 msgstr "Found background: %s\\n"
 
 #: util/grub.d/00_header.in:263
+#, c-format
 msgid "Unsupported image format"
 msgstr "Unsupported image format"
 
 #: util/grub.d/10_hurd.in:48
+#, c-format
 msgid "Found GNU Mach: %s"
 msgstr "Found GNU Mach: %s"
 
 #: util/grub.d/10_hurd.in:63
+#, c-format
 msgid "Found Hurd module: %s"
 msgstr "Found Hurd module: %s"
 
 #: util/grub.d/10_hurd.in:77
+#, c-format
 msgid "Some Hurd stuff found, but not enough to boot."
 msgstr "Some Hurd stuff found, but not enough to boot."
 
 #: util/grub.d/10_hurd.in:91
+#, c-format
 msgid "%s, with Hurd %s (recovery mode)"
 msgstr "%s, with Hurd %s (recovery mode)"
 
 #: util/grub.d/10_hurd.in:94
+#, c-format
 msgid "%s, with Hurd %s"
 msgstr "%s, with Hurd %s"
 
 #: util/grub.d/10_hurd.in:100 util/grub.d/10_kfreebsd.in:87
 #: util/grub.d/10_linux.in:97 util/grub.d/10_netbsd.in:113
 #: util/grub.d/20_linux_xen.in:105 util/grub.d/30_os-prober.in:228
+#, c-format
 msgid ""
 "Please don't use old title `%s' for GRUB_DEFAULT, use `%s' (for versions "
 "before 2.00) or `%s' (for 2.00 or later)"
@@ -5221,10 +5231,12 @@ msgstr ""
 "before 2.00) or ‘%s’ (for 2.00 or later)"
 
 #: util/grub.d/10_hurd.in:112
+#, c-format
 msgid "Loading GNU Mach ..."
 msgstr "Loading GNU Mach ..."
 
 #: util/grub.d/10_hurd.in:128
+#, c-format
 msgid "Loading the Hurd ..."
 msgstr "Loading the Hurd ..."
 
@@ -5232,129 +5244,159 @@ msgstr "Loading the Hurd ..."
 #: util/grub.d/10_hurd.in:164 util/grub.d/10_kfreebsd.in:222
 #: util/grub.d/10_linux.in:239 util/grub.d/10_netbsd.in:168
 #: util/grub.d/30_os-prober.in:204
+#, c-format
 msgid "Advanced options for %s"
 msgstr "Advanced options for %s"
 
 #: util/grub.d/10_illumos.in:40
+#, c-format
 msgid "Loading kernel of Illumos ..."
 msgstr "Loading kernel of Illumos ..."
 
 #: util/grub.d/10_kfreebsd.in:79
+#, c-format
 msgid "%s, with kFreeBSD %s (recovery mode)"
 msgstr "%s, with kFreeBSD %s (recovery mode)"
 
 #: util/grub.d/10_kfreebsd.in:81
+#, c-format
 msgid "%s, with kFreeBSD %s"
 msgstr "%s, with kFreeBSD %s"
 
 #: util/grub.d/10_kfreebsd.in:101
+#, c-format
 msgid "Loading kernel of FreeBSD %s ..."
 msgstr "Loading kernel of FreeBSD %s ..."
 
 #: util/grub.d/10_kfreebsd.in:161
+#, c-format
 msgid "Found kernel of FreeBSD: %s\\n"
 msgstr "Found kernel of FreeBSD: %s\\n"
 
 #: util/grub.d/10_kfreebsd.in:210
+#, c-format
 msgid "Found kernel module directory: %s\\n"
 msgstr "Found kernel module directory: %s\\n"
 
 #: util/grub.d/10_linux.in:89
+#, c-format
 msgid "%s, with Linux %s (recovery mode)"
 msgstr "%s, with Linux %s (recovery mode)"
 
 #: util/grub.d/10_linux.in:91
+#, c-format
 msgid "%s, with Linux %s"
 msgstr "%s, with Linux %s"
 
 #: util/grub.d/10_linux.in:135 util/grub.d/20_linux_xen.in:121
+#, c-format
 msgid "Loading Linux %s ..."
 msgstr "Loading Linux %s ..."
 
 #. TRANSLATORS: ramdisk isn't identifier. Should be translated.
 #: util/grub.d/10_linux.in:142 util/grub.d/20_linux_xen.in:130
+#, c-format
 msgid "Loading initial ramdisk ..."
 msgstr "Loading initial ramdisk ..."
 
 #: util/grub.d/10_linux.in:185 util/grub.d/20_linux_xen.in:206
+#, c-format
 msgid "Found linux image: %s\\n"
 msgstr "Found linux image: %s\\n"
 
 #: util/grub.d/10_linux.in:222 util/grub.d/20_linux_xen.in:229
+#, c-format
 msgid "Found initrd image: %s\\n"
 msgstr "Found initrd image: %s\\n"
 
 #: util/grub.d/10_netbsd.in:105
+#, c-format
 msgid "%s, with kernel %s (via %s, recovery mode)"
 msgstr "%s, with kernel %s (via %s, recovery mode)"
 
 #: util/grub.d/10_netbsd.in:107
+#, c-format
 msgid "%s, with kernel %s (via %s)"
 msgstr "%s, with kernel %s (via %s)"
 
 #: util/grub.d/10_netbsd.in:158
+#, c-format
 msgid "Found NetBSD kernel: %s\\n"
 msgstr "Found NetBSD kernel: %s\\n"
 
 #: util/grub.d/10_windows.in:70
+#, c-format
 msgid "Windows Vista/7 (loader)"
 msgstr "Windows Vista/7 (loader)"
 
 #: util/grub.d/10_windows.in:74
+#, c-format
 msgid "Windows NT/2000/XP (loader)"
 msgstr "Windows NT/2000/XP (loader)"
 
 #: util/grub.d/10_windows.in:85
+#, c-format
 msgid "Found %s on %s (%s)\\n"
 msgstr "Found %s on %s (%s)\\n"
 
 #: util/grub.d/20_linux_xen.in:97
+#, c-format
 msgid "%s, with Xen %s and Linux %s (recovery mode)"
 msgstr "%s, with Xen %s and Linux %s (recovery mode)"
 
 #: util/grub.d/20_linux_xen.in:99
+#, c-format
 msgid "%s, with Xen %s and Linux %s"
 msgstr "%s, with Xen %s and Linux %s"
 
 #: util/grub.d/20_linux_xen.in:109
+#, c-format
 msgid "%s, with Xen hypervisor"
 msgstr "%s, with Xen hypervisor"
 
 #: util/grub.d/20_linux_xen.in:120
+#, c-format
 msgid "Loading Xen %s ..."
 msgstr "Loading Xen %s ..."
 
 #: util/grub.d/20_linux_xen.in:202 util/grub.d/20_linux_xen.in:246
+#, c-format
 msgid "Xen hypervisor, version %s"
 msgstr "Xen hypervisor, version %s"
 
 #. TRANSLATORS: %s is replaced with an OS name
 #: util/grub.d/20_linux_xen.in:245
+#, c-format
 msgid "Advanced options for %s (with Xen hypervisor)"
 msgstr "Advanced options for %s (with Xen hypervisor)"
 
 #. TRANSLATORS: it refers to kernel architecture (32-bit)
 #: util/grub.d/30_os-prober.in:47
+#, c-format
 msgid "(32-bit)"
 msgstr "(32-bit)"
 
 #. TRANSLATORS: it refers to kernel architecture (64-bit)
 #: util/grub.d/30_os-prober.in:50
+#, c-format
 msgid "(64-bit)"
 msgstr "(64-bit)"
 
 #. TRANSLATORS: it refers on the OS residing on device %s
 #: util/grub.d/30_os-prober.in:53 util/grub.d/30_os-prober.in:125
 #: util/grub.d/30_os-prober.in:172 util/grub.d/30_os-prober.in:242
+#, c-format
 msgid "(on %s)"
 msgstr "(on %s)"
 
 #: util/grub.d/30_os-prober.in:120
+#, c-format
 msgid "Found %s on %s\\n"
 msgstr "Found %s on %s\\n"
 
 #. TRANSLATORS: %s is replaced by OS name.
 #: util/grub.d/30_os-prober.in:270
+#, c-format
 msgid "%s is not yet supported by grub-mkconfig.\\n"
 msgstr "%s is not yet supported by grub-mkconfig.\\n"
 

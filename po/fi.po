@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grub 2.0.0-pre6\n"
 "Report-Msgid-Bugs-To: bug-grub@gnu.org\n"
-"POT-Creation-Date: 2012-06-27 22:55+0200\n"
+"POT-Creation-Date: 2013-11-13 23:05+0200\n"
 "PO-Revision-Date: 2012-06-09 08:09+0300\n"
 "Last-Translator: Jorma Karvonen <karvonen.jorma@gmail.com>\n"
 "Language-Team: Finnish <translation-team-fi@lists.sourceforge.net>\n"
@@ -5197,6 +5197,7 @@ msgid "invalid line format: %s"
 msgstr "virheellinen rivimuoto: %s"
 
 #: util/grub.d/00_header.in:131
+#, c-format
 msgid ""
 "Requested serial terminal but GRUB_SERIAL_COMMAND is unspecified. Default "
 "parameters will be used."
@@ -5205,40 +5206,49 @@ msgstr ""
 "Käytetään oletusparametreja."
 
 #: util/grub.d/00_header.in:222
+#, c-format
 msgid "Found theme: %s\\n"
 msgstr "Teema löytyi: %s\\n"
 
 #: util/grub.d/00_header.in:258
+#, c-format
 msgid "Found background: %s\\n"
 msgstr "Tausta löytyi: %s\\n"
 
 #: util/grub.d/00_header.in:263
+#, c-format
 msgid "Unsupported image format"
 msgstr "Tukematon levykuvamuoto"
 
 #: util/grub.d/10_hurd.in:48
+#, c-format
 msgid "Found GNU Mach: %s"
 msgstr "GNU Mach löytyi: %s"
 
 #: util/grub.d/10_hurd.in:63
+#, c-format
 msgid "Found Hurd module: %s"
 msgstr "Hurd-moduuli löytyi: %s"
 
 #: util/grub.d/10_hurd.in:77
+#, c-format
 msgid "Some Hurd stuff found, but not enough to boot."
 msgstr "Löytyi jotain Hurd-materiaalia, mutta ei kylliksi alkulataukseen."
 
 #: util/grub.d/10_hurd.in:91
+#, c-format
 msgid "%s, with Hurd %s (recovery mode)"
 msgstr "%s, jakeluversiolla Hurd %s (toipumistila)"
 
 #: util/grub.d/10_hurd.in:94
+#, c-format
 msgid "%s, with Hurd %s"
 msgstr "%s, jakeluversiolla Hurd %s"
 
 #: util/grub.d/10_hurd.in:100 util/grub.d/10_kfreebsd.in:87
 #: util/grub.d/10_linux.in:97 util/grub.d/10_netbsd.in:113
 #: util/grub.d/20_linux_xen.in:105 util/grub.d/30_os-prober.in:228
+#, c-format
 msgid ""
 "Please don't use old title `%s' for GRUB_DEFAULT, use `%s' (for versions "
 "before 2.00) or `%s' (for 2.00 or later)"
@@ -5247,10 +5257,12 @@ msgstr ""
 "”%s” (versioille ennen 2.00) tai ”%s” (versiolla 2.00 ja myöhäisemmille)"
 
 #: util/grub.d/10_hurd.in:112
+#, c-format
 msgid "Loading GNU Mach ..."
 msgstr "Ladataan GNU Mach ..."
 
 #: util/grub.d/10_hurd.in:128
+#, c-format
 msgid "Loading the Hurd ..."
 msgstr "Ladataan Hurd ..."
 
@@ -5258,129 +5270,159 @@ msgstr "Ladataan Hurd ..."
 #: util/grub.d/10_hurd.in:164 util/grub.d/10_kfreebsd.in:222
 #: util/grub.d/10_linux.in:239 util/grub.d/10_netbsd.in:168
 #: util/grub.d/30_os-prober.in:204
+#, c-format
 msgid "Advanced options for %s"
 msgstr "Lisävalitsimet kohteelle ”%s”"
 
 #: util/grub.d/10_illumos.in:40
+#, c-format
 msgid "Loading kernel of Illumos ..."
 msgstr "Ladataan Illumos-käyttöjärjestelmäydin ..."
 
 #: util/grub.d/10_kfreebsd.in:79
+#, c-format
 msgid "%s, with kFreeBSD %s (recovery mode)"
 msgstr "%s, jakeluversiolla kFreeBSD %s (toipumistila)"
 
 #: util/grub.d/10_kfreebsd.in:81
+#, c-format
 msgid "%s, with kFreeBSD %s"
 msgstr "%s, jakeluversiolla kFreeBSD %s"
 
 #: util/grub.d/10_kfreebsd.in:101
+#, c-format
 msgid "Loading kernel of FreeBSD %s ..."
 msgstr "Ladataan FreeBSD %s käyttöjärjestelmäydin ..."
 
 #: util/grub.d/10_kfreebsd.in:161
+#, c-format
 msgid "Found kernel of FreeBSD: %s\\n"
 msgstr "FreeBSD-käyttöjärjestelmäydin löytyi: %s\\n"
 
 #: util/grub.d/10_kfreebsd.in:210
+#, c-format
 msgid "Found kernel module directory: %s\\n"
 msgstr "Käyttöjärjestelmämoduulihakemisto löytyi: %s\\n"
 
 #: util/grub.d/10_linux.in:89
+#, c-format
 msgid "%s, with Linux %s (recovery mode)"
 msgstr "%s, jakeluversiolla Linux %s (toipumistila)"
 
 #: util/grub.d/10_linux.in:91
+#, c-format
 msgid "%s, with Linux %s"
 msgstr "%s, jakeluversiolla Linux %s"
 
 #: util/grub.d/10_linux.in:135 util/grub.d/20_linux_xen.in:121
+#, c-format
 msgid "Loading Linux %s ..."
 msgstr "Ladataan Linux %s käyttöjärjestelmäydin ..."
 
 #. TRANSLATORS: ramdisk isn't identifier. Should be translated.
 #: util/grub.d/10_linux.in:142 util/grub.d/20_linux_xen.in:130
+#, c-format
 msgid "Loading initial ramdisk ..."
 msgstr "Ladataan alustavaa ramlevyä ..."
 
 #: util/grub.d/10_linux.in:185 util/grub.d/20_linux_xen.in:206
+#, c-format
 msgid "Found linux image: %s\\n"
 msgstr "Linux-levykuva löytyi: %s\\n"
 
 #: util/grub.d/10_linux.in:222 util/grub.d/20_linux_xen.in:229
+#, c-format
 msgid "Found initrd image: %s\\n"
 msgstr "Löytyi initrd-levykuva: %s\\n"
 
 #: util/grub.d/10_netbsd.in:105
+#, c-format
 msgid "%s, with kernel %s (via %s, recovery mode)"
 msgstr "%s, jakeluversiolla ydin %s (%s-kautta, toipumistila)"
 
 #: util/grub.d/10_netbsd.in:107
+#, c-format
 msgid "%s, with kernel %s (via %s)"
 msgstr "%s, jakeluversiolla ydin %s (%s-kautta)"
 
 #: util/grub.d/10_netbsd.in:158
+#, c-format
 msgid "Found NetBSD kernel: %s\\n"
 msgstr "NetBSD-käyttöjärjestelmäydin löytyi: %s\\n"
 
 #: util/grub.d/10_windows.in:70
+#, c-format
 msgid "Windows Vista/7 (loader)"
 msgstr "Windows Vista/7 (-lataaja)"
 
 #: util/grub.d/10_windows.in:74
+#, c-format
 msgid "Windows NT/2000/XP (loader)"
 msgstr "Windows NT/2000/XP (-lataaja)"
 
 #: util/grub.d/10_windows.in:85
+#, c-format
 msgid "Found %s on %s (%s)\\n"
 msgstr "Löytyi %s kohteelta %s (%s)\\n"
 
 #: util/grub.d/20_linux_xen.in:97
+#, c-format
 msgid "%s, with Xen %s and Linux %s (recovery mode)"
 msgstr "%s, jakeluversioilla Xen %s ja Linux %s (toipumistila)"
 
 #: util/grub.d/20_linux_xen.in:99
+#, c-format
 msgid "%s, with Xen %s and Linux %s"
 msgstr "%s, jakeluversioilla Xen %s ja Linux %s"
 
 #: util/grub.d/20_linux_xen.in:109
+#, c-format
 msgid "%s, with Xen hypervisor"
 msgstr "%s, jakeluversiolla Xen hypervisor"
 
 #: util/grub.d/20_linux_xen.in:120
+#, c-format
 msgid "Loading Xen %s ..."
 msgstr "Ladataan Xen %s ..."
 
 #: util/grub.d/20_linux_xen.in:202 util/grub.d/20_linux_xen.in:246
+#, c-format
 msgid "Xen hypervisor, version %s"
 msgstr "Xen hypervisor, versio %s"
 
 #. TRANSLATORS: %s is replaced with an OS name
 #: util/grub.d/20_linux_xen.in:245
+#, c-format
 msgid "Advanced options for %s (with Xen hypervisor)"
 msgstr "Lisävalitsimet kohteelle %s (Xen hypervisor -jakeluversiolla)"
 
 #. TRANSLATORS: it refers to kernel architecture (32-bit)
 #: util/grub.d/30_os-prober.in:47
+#, c-format
 msgid "(32-bit)"
 msgstr "(32-bittinen)"
 
 #. TRANSLATORS: it refers to kernel architecture (64-bit)
 #: util/grub.d/30_os-prober.in:50
+#, c-format
 msgid "(64-bit)"
 msgstr "(64-bittinen)"
 
 #. TRANSLATORS: it refers on the OS residing on device %s
 #: util/grub.d/30_os-prober.in:53 util/grub.d/30_os-prober.in:125
 #: util/grub.d/30_os-prober.in:172 util/grub.d/30_os-prober.in:242
+#, c-format
 msgid "(on %s)"
 msgstr "(kohteella %s)"
 
 #: util/grub.d/30_os-prober.in:120
+#, c-format
 msgid "Found %s on %s\\n"
 msgstr "Löytyi %s kohteella %s\\n"
 
 #. TRANSLATORS: %s is replaced by OS name.
 #: util/grub.d/30_os-prober.in:270
+#, c-format
 msgid "%s is not yet supported by grub-mkconfig.\\n"
 msgstr "grub-mkconfig ei vielä tue kohdetta %s.\\n"
 

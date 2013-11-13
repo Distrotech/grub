@@ -1,6 +1,6 @@
 This is grub.info, produced by makeinfo version 4.13 from grub.texi.
 
-This manual is for GNU GRUB (version 2.00, 20 June 2013).
+This manual is for GNU GRUB (version 2.00, 13 November 2013).
 
    Copyright (C) 1999,2000,2001,2002,2004,2006,2008,2009,2010,2011,2012
 Free Software Foundation, Inc.
@@ -32,7 +32,7 @@ architectures.
 
    This edition documents version 2.00.
 
-   This manual is for GNU GRUB (version 2.00, 20 June 2013).
+   This manual is for GNU GRUB (version 2.00, 13 November 2013).
 
    Copyright (C) 1999,2000,2001,2002,2004,2006,2008,2009,2010,2011,2012
 Free Software Foundation, Inc.
@@ -5637,169 +5637,169 @@ Index
 
 
 Tag Table:
-Node: Top967
-Node: Introduction3569
-Node: Overview4013
-Node: Overview-Footnotes5997
-Ref: Overview-Footnote-16058
-Node: History6219
-Node: Changes from GRUB Legacy8307
-Node: Features10783
-Node: Features-Footnotes17142
-Ref: Features-Footnote-117203
-Ref: Features-Footnote-217349
-Node: Role of a boot loader17494
-Node: Role of a boot loader-Footnotes18832
-Ref: Role of a boot loader-Footnote-118919
-Node: Naming convention18998
-Node: Installation21873
-Node: Installing GRUB using grub-install22976
-Node: Making a GRUB bootable CD-ROM25147
-Node: Making a GRUB bootable CD-ROM-Footnotes27001
-Ref: Making a GRUB bootable CD-ROM-Footnote-127104
-Node: Device map27179
-Node: BIOS installation29160
-Node: Booting32537
-Node: General boot methods32993
-Node: Loading an operating system directly33733
-Node: Chain-loading34464
-Node: Loopback booting35435
-Node: OS-specific notes37098
-Node: GNU/Hurd37376
-Node: GNU/Linux38498
-Node: DOS/Windows40126
-Node: Configuration41899
-Node: Simple configuration42509
-Node: Shell-like scripting52623
-Node: Shell-like scripting-Footnotes60554
-Ref: Shell-like scripting-Footnote-160639
-Node: Multi-boot manual config60766
-Node: Embedded configuration64391
-Node: Theme file format67228
-Ref: Pixmap-styled progress bar68651
-Ref: Plain progress bar68663
-Ref: An example of the slices (in red) used for a terminal window. This drawing was created and sliced in Inkscape_72161
-Node: Network86383
-Node: Serial terminal88533
-Node: Vendor power-on keys90760
-Node: Images92590
-Node: Filesystem97550
-Node: Device syntax98237
-Node: File name syntax100620
-Node: Block list syntax101374
-Node: Interface102107
-Node: Command-line interface102929
-Node: Command-line interface-Footnotes104870
-Ref: Command-line interface-Footnote-1104959
-Node: Menu interface105054
-Node: Menu entry editor106064
-Node: Environment106802
-Node: Special environment variables107506
-Node: biosnum108257
-Node: chosen108771
-Node: color_highlight109213
-Node: color_normal109619
-Node: debug110241
-Node: default110588
-Node: fallback111515
-Node: gfxmode111846
-Node: gfxpayload112579
-Node: gfxterm_font113731
-Node: icondir114030
-Node: lang114346
-Node: locale_dir114815
-Node: menu_color_highlight115324
-Node: menu_color_normal115820
-Node: net_pxe_boot_file116313
-Node: net_pxe_dhcp_server_name116524
-Node: net_pxe_domain116746
-Node: net_pxe_extensionspath116953
-Node: net_pxe_hostname117168
-Node: net_pxe_ip117367
-Node: net_pxe_mac117543
-Node: net_pxe_rootpath117721
-Node: pager117904
-Node: prefix118158
-Node: pxe_blksize118607
-Node: pxe_default_gateway118784
-Node: pxe_default_server118989
-Node: root119185
-Node: superusers119726
-Node: theme119974
-Node: timeout120295
-Node: Environment block120792
-Node: Commands122224
-Node: Menu-specific commands123069
-Node: menuentry123796
-Node: submenu124930
-Node: General commands125457
-Node: serial125953
-Node: terminal_input126998
-Node: terminal_output127664
-Node: terminfo128331
-Node: Command-line and menu entry commands129466
-Node: acpi132437
-Node: badram133476
-Node: blocklist134518
-Node: boot134752
-Node: cat135073
-Node: chainloader135708
-Node: cmp136330
-Node: configfile136881
-Node: cpuid137181
-Node: crc137646
-Node: date137836
-Node: drivemap138375
-Node: echo139178
-Node: export140115
-Node: false140425
-Node: gettext140721
-Node: gptsync141168
-Node: halt142113
-Node: help142439
-Node: initrd142902
-Node: initrd16143314
-Node: insmod143819
-Node: keystatus144041
-Node: linux144679
-Node: linux16145582
-Node: list_env146296
-Node: load_env146650
-Node: loopback147028
-Node: ls147476
-Node: normal148021
-Node: normal_exit148780
-Node: parttool149102
-Node: password150607
-Node: password_pbkdf2150889
-Node: play151297
-Node: pxe_unload152049
-Node: read152328
-Node: reboot152677
-Node: save_env152862
-Node: search153248
-Node: sendkey154026
-Node: set160300
-Node: true160598
-Node: unset160883
-Node: uppermem161089
-Node: Internationalisation161290
-Node: Security167889
-Node: Platform limitations170711
-Node: Platform-specific operations177098
-Node: Supported kernels178084
-Node: Troubleshooting186075
-Node: GRUB only offers a rescue shell186301
-Node: Invoking grub-install189227
-Node: Invoking grub-mkconfig190605
-Node: Invoking grub-mkpasswd-pbkdf2191242
-Node: Invoking grub-mkrescue191900
-Node: Invoking grub-probe193655
-Node: Obtaining and Building GRUB196251
-Node: Reporting bugs197488
-Node: Future200291
-Node: Copying This Manual200691
-Node: GNU Free Documentation License200919
-Node: Index223327
+Node: Top971
+Node: Introduction3577
+Node: Overview4021
+Node: Overview-Footnotes6005
+Ref: Overview-Footnote-16066
+Node: History6227
+Node: Changes from GRUB Legacy8315
+Node: Features10791
+Node: Features-Footnotes17150
+Ref: Features-Footnote-117211
+Ref: Features-Footnote-217357
+Node: Role of a boot loader17502
+Node: Role of a boot loader-Footnotes18840
+Ref: Role of a boot loader-Footnote-118927
+Node: Naming convention19006
+Node: Installation21881
+Node: Installing GRUB using grub-install22984
+Node: Making a GRUB bootable CD-ROM25155
+Node: Making a GRUB bootable CD-ROM-Footnotes27009
+Ref: Making a GRUB bootable CD-ROM-Footnote-127112
+Node: Device map27187
+Node: BIOS installation29168
+Node: Booting32545
+Node: General boot methods33001
+Node: Loading an operating system directly33741
+Node: Chain-loading34472
+Node: Loopback booting35443
+Node: OS-specific notes37106
+Node: GNU/Hurd37384
+Node: GNU/Linux38506
+Node: DOS/Windows40134
+Node: Configuration41907
+Node: Simple configuration42517
+Node: Shell-like scripting52631
+Node: Shell-like scripting-Footnotes60562
+Ref: Shell-like scripting-Footnote-160647
+Node: Multi-boot manual config60774
+Node: Embedded configuration64399
+Node: Theme file format67236
+Ref: Pixmap-styled progress bar68659
+Ref: Plain progress bar68671
+Ref: An example of the slices (in red) used for a terminal window. This drawing was created and sliced in Inkscape_72169
+Node: Network86391
+Node: Serial terminal88541
+Node: Vendor power-on keys90768
+Node: Images92598
+Node: Filesystem97558
+Node: Device syntax98245
+Node: File name syntax100628
+Node: Block list syntax101382
+Node: Interface102115
+Node: Command-line interface102937
+Node: Command-line interface-Footnotes104878
+Ref: Command-line interface-Footnote-1104967
+Node: Menu interface105062
+Node: Menu entry editor106072
+Node: Environment106810
+Node: Special environment variables107514
+Node: biosnum108265
+Node: chosen108779
+Node: color_highlight109221
+Node: color_normal109627
+Node: debug110249
+Node: default110596
+Node: fallback111523
+Node: gfxmode111854
+Node: gfxpayload112587
+Node: gfxterm_font113739
+Node: icondir114038
+Node: lang114354
+Node: locale_dir114823
+Node: menu_color_highlight115332
+Node: menu_color_normal115828
+Node: net_pxe_boot_file116321
+Node: net_pxe_dhcp_server_name116532
+Node: net_pxe_domain116754
+Node: net_pxe_extensionspath116961
+Node: net_pxe_hostname117176
+Node: net_pxe_ip117375
+Node: net_pxe_mac117551
+Node: net_pxe_rootpath117729
+Node: pager117912
+Node: prefix118166
+Node: pxe_blksize118615
+Node: pxe_default_gateway118792
+Node: pxe_default_server118997
+Node: root119193
+Node: superusers119734
+Node: theme119982
+Node: timeout120303
+Node: Environment block120800
+Node: Commands122232
+Node: Menu-specific commands123077
+Node: menuentry123804
+Node: submenu124938
+Node: General commands125465
+Node: serial125961
+Node: terminal_input127006
+Node: terminal_output127672
+Node: terminfo128339
+Node: Command-line and menu entry commands129474
+Node: acpi132445
+Node: badram133484
+Node: blocklist134526
+Node: boot134760
+Node: cat135081
+Node: chainloader135716
+Node: cmp136338
+Node: configfile136889
+Node: cpuid137189
+Node: crc137654
+Node: date137844
+Node: drivemap138383
+Node: echo139186
+Node: export140123
+Node: false140433
+Node: gettext140729
+Node: gptsync141176
+Node: halt142121
+Node: help142447
+Node: initrd142910
+Node: initrd16143322
+Node: insmod143827
+Node: keystatus144049
+Node: linux144687
+Node: linux16145590
+Node: list_env146304
+Node: load_env146658
+Node: loopback147036
+Node: ls147484
+Node: normal148029
+Node: normal_exit148788
+Node: parttool149110
+Node: password150615
+Node: password_pbkdf2150897
+Node: play151305
+Node: pxe_unload152057
+Node: read152336
+Node: reboot152685
+Node: save_env152870
+Node: search153256
+Node: sendkey154034
+Node: set160308
+Node: true160606
+Node: unset160891
+Node: uppermem161097
+Node: Internationalisation161298
+Node: Security167897
+Node: Platform limitations170719
+Node: Platform-specific operations177106
+Node: Supported kernels178092
+Node: Troubleshooting186083
+Node: GRUB only offers a rescue shell186309
+Node: Invoking grub-install189235
+Node: Invoking grub-mkconfig190613
+Node: Invoking grub-mkpasswd-pbkdf2191250
+Node: Invoking grub-mkrescue191908
+Node: Invoking grub-probe193663
+Node: Obtaining and Building GRUB196259
+Node: Reporting bugs197496
+Node: Future200299
+Node: Copying This Manual200699
+Node: GNU Free Documentation License200927
+Node: Index223335
 
 End Tag Table

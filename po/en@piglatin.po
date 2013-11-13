@@ -1,7 +1,7 @@
 # English translations for grub package.
-# Copyright (C) 2012 Free Software Foundation, Inc.
+# Copyright (C) 2013 Free Software Foundation, Inc.
 # This file is distributed under the same license as the grub package.
-# Automatically generated, 2012.
+# Automatically generated, 2013.
 #
 # This catalog in addition to fixing quoting like en@quot translates the
 # messages into Pig Latin. Can be useful for testing that all strings are
@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grub 2.00\n"
 "Report-Msgid-Bugs-To: bug-grub@gnu.org\n"
-"POT-Creation-Date: 2012-06-27 22:55+0200\n"
-"PO-Revision-Date: 2012-06-27 22:55+0200\n"
+"POT-Creation-Date: 2013-11-13 23:05+0200\n"
+"PO-Revision-Date: 2013-11-13 23:05+0200\n"
 "Last-Translator: Automatically generated\n"
 "Language-Team: none\n"
 "Language: en@piglatin\n"
@@ -5242,6 +5242,7 @@ msgid "invalid line format: %s"
 msgstr "invalidway inelay ormatfay: %s"
 
 #: util/grub.d/00_header.in:131
+#, c-format
 msgid ""
 "Requested serial terminal but GRUB_SERIAL_COMMAND is unspecified. Default "
 "parameters will be used."
@@ -5250,40 +5251,49 @@ msgstr ""
 "unspecifiedway. efaultDay arameterspay illway ebay usedway."
 
 #: util/grub.d/00_header.in:222
+#, c-format
 msgid "Found theme: %s\\n"
 msgstr "oundFay emethay: %s\\n"
 
 #: util/grub.d/00_header.in:258
+#, c-format
 msgid "Found background: %s\\n"
 msgstr "oundFay ackgroundbay: %s\\n"
 
 #: util/grub.d/00_header.in:263
+#, c-format
 msgid "Unsupported image format"
 msgstr "Unsupportedway imageway ormatfay"
 
 #: util/grub.d/10_hurd.in:48
+#, c-format
 msgid "Found GNU Mach: %s"
 msgstr "oundFay UGNay achMay: %s"
 
 #: util/grub.d/10_hurd.in:63
+#, c-format
 msgid "Found Hurd module: %s"
 msgstr "oundFay urdHay odulemay: %s"
 
 #: util/grub.d/10_hurd.in:77
+#, c-format
 msgid "Some Hurd stuff found, but not enough to boot."
 msgstr "omeSay urdHay uffstay oundfay, utbay otnay enoughway otay ootbay."
 
 #: util/grub.d/10_hurd.in:91
+#, c-format
 msgid "%s, with Hurd %s (recovery mode)"
 msgstr "%s, ithway urdHay %s (ecoveryray odemay)"
 
 #: util/grub.d/10_hurd.in:94
+#, c-format
 msgid "%s, with Hurd %s"
 msgstr "%s, ithway urdHay %s"
 
 #: util/grub.d/10_hurd.in:100 util/grub.d/10_kfreebsd.in:87
 #: util/grub.d/10_linux.in:97 util/grub.d/10_netbsd.in:113
 #: util/grub.d/20_linux_xen.in:105 util/grub.d/30_os-prober.in:228
+#, c-format
 msgid ""
 "Please don't use old title `%s' for GRUB_DEFAULT, use `%s' (for versions "
 "before 2.00) or `%s' (for 2.00 or later)"
@@ -5292,10 +5302,12 @@ msgstr ""
 "‘%s’ (orfay ersionsvay eforebay 2.00) orway ‘%s’ (orfay 2.00 orway aterlay)"
 
 #: util/grub.d/10_hurd.in:112
+#, c-format
 msgid "Loading GNU Mach ..."
 msgstr "oadingLay UGNay achMay ..."
 
 #: util/grub.d/10_hurd.in:128
+#, c-format
 msgid "Loading the Hurd ..."
 msgstr "oadingLay ethay urdHay ..."
 
@@ -5303,129 +5315,159 @@ msgstr "oadingLay ethay urdHay ..."
 #: util/grub.d/10_hurd.in:164 util/grub.d/10_kfreebsd.in:222
 #: util/grub.d/10_linux.in:239 util/grub.d/10_netbsd.in:168
 #: util/grub.d/30_os-prober.in:204
+#, c-format
 msgid "Advanced options for %s"
 msgstr "Advancedway optionsway orfay %s"
 
 #: util/grub.d/10_illumos.in:40
+#, c-format
 msgid "Loading kernel of Illumos ..."
 msgstr "oadingLay ernelkay ofway Illumosway ..."
 
 #: util/grub.d/10_kfreebsd.in:79
+#, c-format
 msgid "%s, with kFreeBSD %s (recovery mode)"
 msgstr "%s, ithway eeBSDkFray %s (ecoveryray odemay)"
 
 #: util/grub.d/10_kfreebsd.in:81
+#, c-format
 msgid "%s, with kFreeBSD %s"
 msgstr "%s, ithway eeBSDkFray %s"
 
 #: util/grub.d/10_kfreebsd.in:101
+#, c-format
 msgid "Loading kernel of FreeBSD %s ..."
 msgstr "oadingLay ernelkay ofway eeBSDFray %s ..."
 
 #: util/grub.d/10_kfreebsd.in:161
+#, c-format
 msgid "Found kernel of FreeBSD: %s\\n"
 msgstr "oundFay ernelkay ofway eeBSDFray: %s\\n"
 
 #: util/grub.d/10_kfreebsd.in:210
+#, c-format
 msgid "Found kernel module directory: %s\\n"
 msgstr "oundFay ernelkay odulemay irectoryday: %s\\n"
 
 #: util/grub.d/10_linux.in:89
+#, c-format
 msgid "%s, with Linux %s (recovery mode)"
 msgstr "%s, ithway inuxLay %s (ecoveryray odemay)"
 
 #: util/grub.d/10_linux.in:91
+#, c-format
 msgid "%s, with Linux %s"
 msgstr "%s, ithway inuxLay %s"
 
 #: util/grub.d/10_linux.in:135 util/grub.d/20_linux_xen.in:121
+#, c-format
 msgid "Loading Linux %s ..."
 msgstr "oadingLay inuxLay %s ..."
 
 #. TRANSLATORS: ramdisk isn't identifier. Should be translated.
 #: util/grub.d/10_linux.in:142 util/grub.d/20_linux_xen.in:130
+#, c-format
 msgid "Loading initial ramdisk ..."
 msgstr "oadingLay initialway amdiskray ..."
 
 #: util/grub.d/10_linux.in:185 util/grub.d/20_linux_xen.in:206
+#, c-format
 msgid "Found linux image: %s\\n"
 msgstr "oundFay inuxlay imageway: %s\\n"
 
 #: util/grub.d/10_linux.in:222 util/grub.d/20_linux_xen.in:229
+#, c-format
 msgid "Found initrd image: %s\\n"
 msgstr "oundFay initrdway imageway: %s\\n"
 
 #: util/grub.d/10_netbsd.in:105
+#, c-format
 msgid "%s, with kernel %s (via %s, recovery mode)"
 msgstr "%s, ithway ernelkay %s (iavay %s, ecoveryray odemay)"
 
 #: util/grub.d/10_netbsd.in:107
+#, c-format
 msgid "%s, with kernel %s (via %s)"
 msgstr "%s, ithway ernelkay %s (iavay %s)"
 
 #: util/grub.d/10_netbsd.in:158
+#, c-format
 msgid "Found NetBSD kernel: %s\\n"
 msgstr "oundFay etBSDNay ernelkay: %s\\n"
 
 #: util/grub.d/10_windows.in:70
+#, c-format
 msgid "Windows Vista/7 (loader)"
 msgstr "indowsWay istaVay/7 (oaderlay)"
 
 #: util/grub.d/10_windows.in:74
+#, c-format
 msgid "Windows NT/2000/XP (loader)"
 msgstr "indowsWay NTay/2000/XPay (oaderlay)"
 
 #: util/grub.d/10_windows.in:85
+#, c-format
 msgid "Found %s on %s (%s)\\n"
 msgstr "oundFay %s onway %s (%s)\\n"
 
 #: util/grub.d/20_linux_xen.in:97
+#, c-format
 msgid "%s, with Xen %s and Linux %s (recovery mode)"
 msgstr "%s, ithway enXay %s andway inuxLay %s (ecoveryray odemay)"
 
 #: util/grub.d/20_linux_xen.in:99
+#, c-format
 msgid "%s, with Xen %s and Linux %s"
 msgstr "%s, ithway enXay %s andway inuxLay %s"
 
 #: util/grub.d/20_linux_xen.in:109
+#, c-format
 msgid "%s, with Xen hypervisor"
 msgstr "%s, ithway enXay ypervisorhay"
 
 #: util/grub.d/20_linux_xen.in:120
+#, c-format
 msgid "Loading Xen %s ..."
 msgstr "oadingLay enXay %s ..."
 
 #: util/grub.d/20_linux_xen.in:202 util/grub.d/20_linux_xen.in:246
+#, c-format
 msgid "Xen hypervisor, version %s"
 msgstr "enXay ypervisorhay, ersionvay %s"
 
 #. TRANSLATORS: %s is replaced with an OS name
 #: util/grub.d/20_linux_xen.in:245
+#, c-format
 msgid "Advanced options for %s (with Xen hypervisor)"
 msgstr "Advancedway optionsway orfay %s (ithway enXay ypervisorhay)"
 
 #. TRANSLATORS: it refers to kernel architecture (32-bit)
 #: util/grub.d/30_os-prober.in:47
+#, c-format
 msgid "(32-bit)"
 msgstr "(32-itbay)"
 
 #. TRANSLATORS: it refers to kernel architecture (64-bit)
 #: util/grub.d/30_os-prober.in:50
+#, c-format
 msgid "(64-bit)"
 msgstr "(64-itbay)"
 
 #. TRANSLATORS: it refers on the OS residing on device %s
 #: util/grub.d/30_os-prober.in:53 util/grub.d/30_os-prober.in:125
 #: util/grub.d/30_os-prober.in:172 util/grub.d/30_os-prober.in:242
+#, c-format
 msgid "(on %s)"
 msgstr "(onway %s)"
 
 #: util/grub.d/30_os-prober.in:120
+#, c-format
 msgid "Found %s on %s\\n"
 msgstr "oundFay %s onway %s\\n"
 
 #. TRANSLATORS: %s is replaced by OS name.
 #: util/grub.d/30_os-prober.in:270
+#, c-format
 msgid "%s is not yet supported by grub-mkconfig.\\n"
 msgstr "%s isway otnay yet upportedsay ybay ubgray-onfigmkcay.\\n"
 

@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: grub 2.0.0-pre6\n"
 "Report-Msgid-Bugs-To: bug-grub@gnu.org\n"
-"POT-Creation-Date: 2012-06-27 22:55+0200\n"
+"POT-Creation-Date: 2013-11-13 23:05+0200\n"
 "PO-Revision-Date: 2012-05-10 21:50+0300\n"
 "Last-Translator: Yuri Chornoivan <yurchor@ukr.net>\n"
 "Language-Team: Ukrainian <translation-team-uk@lists.sourceforge.net>\n"
@@ -5236,6 +5236,7 @@ msgid "invalid line format: %s"
 msgstr "некоректний формат рядка: %s"
 
 #: util/grub.d/00_header.in:131
+#, c-format
 msgid ""
 "Requested serial terminal but GRUB_SERIAL_COMMAND is unspecified. Default "
 "parameters will be used."
@@ -5244,40 +5245,49 @@ msgstr ""
 "GRUB_SERIAL_COMMAND. Буде використано типові параметри."
 
 #: util/grub.d/00_header.in:222
+#, c-format
 msgid "Found theme: %s\\n"
 msgstr "Виявлено тему: %s\\n"
 
 #: util/grub.d/00_header.in:258
+#, c-format
 msgid "Found background: %s\\n"
 msgstr "Виявлено тло: %s\\n"
 
 #: util/grub.d/00_header.in:263
+#, c-format
 msgid "Unsupported image format"
 msgstr "Непідтримуваний формат зображень"
 
 #: util/grub.d/10_hurd.in:48
+#, c-format
 msgid "Found GNU Mach: %s"
 msgstr "Виявлено GNU Mach: %s"
 
 #: util/grub.d/10_hurd.in:63
+#, c-format
 msgid "Found Hurd module: %s"
 msgstr "Виявлено модуль Hurd: %s"
 
 #: util/grub.d/10_hurd.in:77
+#, c-format
 msgid "Some Hurd stuff found, but not enough to boot."
 msgstr "Виявлено деякі частини Hurd, але їх недостатньо для завантаження."
 
 #: util/grub.d/10_hurd.in:91
+#, c-format
 msgid "%s, with Hurd %s (recovery mode)"
 msgstr "%s, з Hurd %s (режим відновлення)"
 
 #: util/grub.d/10_hurd.in:94
+#, c-format
 msgid "%s, with Hurd %s"
 msgstr "%s, з Hurd %s"
 
 #: util/grub.d/10_hurd.in:100 util/grub.d/10_kfreebsd.in:87
 #: util/grub.d/10_linux.in:97 util/grub.d/10_netbsd.in:113
 #: util/grub.d/20_linux_xen.in:105 util/grub.d/30_os-prober.in:228
+#, c-format
 msgid ""
 "Please don't use old title `%s' for GRUB_DEFAULT, use `%s' (for versions "
 "before 2.00) or `%s' (for 2.00 or later)"
@@ -5286,10 +5296,12 @@ msgstr ""
 "скористайтеся «%s» (у версіях до 2.00) або «%s» (у 2.00 та новіших версіях)"
 
 #: util/grub.d/10_hurd.in:112
+#, c-format
 msgid "Loading GNU Mach ..."
 msgstr "Завантаження GNU Mach…"
 
 #: util/grub.d/10_hurd.in:128
+#, c-format
 msgid "Loading the Hurd ..."
 msgstr "Завантаження Hurd…"
 
@@ -5297,129 +5309,159 @@ msgstr "Завантаження Hurd…"
 #: util/grub.d/10_hurd.in:164 util/grub.d/10_kfreebsd.in:222
 #: util/grub.d/10_linux.in:239 util/grub.d/10_netbsd.in:168
 #: util/grub.d/30_os-prober.in:204
+#, c-format
 msgid "Advanced options for %s"
 msgstr "Додаткові параметри для %s"
 
 #: util/grub.d/10_illumos.in:40
+#, c-format
 msgid "Loading kernel of Illumos ..."
 msgstr "Завантаження ядра Illumos..."
 
 #: util/grub.d/10_kfreebsd.in:79
+#, c-format
 msgid "%s, with kFreeBSD %s (recovery mode)"
 msgstr "%s, з kFreeBSD %s (режим відновлення)"
 
 #: util/grub.d/10_kfreebsd.in:81
+#, c-format
 msgid "%s, with kFreeBSD %s"
 msgstr "%s, з kFreeBSD %s"
 
 #: util/grub.d/10_kfreebsd.in:101
+#, c-format
 msgid "Loading kernel of FreeBSD %s ..."
 msgstr "Завантаження ядра FreeBSD %s…"
 
 #: util/grub.d/10_kfreebsd.in:161
+#, c-format
 msgid "Found kernel of FreeBSD: %s\\n"
 msgstr "Виявлено ядро FreeBSD: %s\\n"
 
 #: util/grub.d/10_kfreebsd.in:210
+#, c-format
 msgid "Found kernel module directory: %s\\n"
 msgstr "Виявлено каталог модулів ядра: %s\\n"
 
 #: util/grub.d/10_linux.in:89
+#, c-format
 msgid "%s, with Linux %s (recovery mode)"
 msgstr "%s, з Linux %s (режим відновлення)"
 
 #: util/grub.d/10_linux.in:91
+#, c-format
 msgid "%s, with Linux %s"
 msgstr "%s, з Linux %s"
 
 #: util/grub.d/10_linux.in:135 util/grub.d/20_linux_xen.in:121
+#, c-format
 msgid "Loading Linux %s ..."
 msgstr "Завантаження Linux %s…"
 
 #. TRANSLATORS: ramdisk isn't identifier. Should be translated.
 #: util/grub.d/10_linux.in:142 util/grub.d/20_linux_xen.in:130
+#, c-format
 msgid "Loading initial ramdisk ..."
 msgstr "Завантаження початкового диска у оперативній пам’яті…"
 
 #: util/grub.d/10_linux.in:185 util/grub.d/20_linux_xen.in:206
+#, c-format
 msgid "Found linux image: %s\\n"
 msgstr "Виявлено образ linux: %s\\n"
 
 #: util/grub.d/10_linux.in:222 util/grub.d/20_linux_xen.in:229
+#, c-format
 msgid "Found initrd image: %s\\n"
 msgstr "Виявлено образ initrd: %s\\n"
 
 #: util/grub.d/10_netbsd.in:105
+#, c-format
 msgid "%s, with kernel %s (via %s, recovery mode)"
 msgstr "%s, з ядром %s (за допомогою %s, режим відновлення)"
 
 #: util/grub.d/10_netbsd.in:107
+#, c-format
 msgid "%s, with kernel %s (via %s)"
 msgstr "%s, з ядром %s (за допомогою %s)"
 
 #: util/grub.d/10_netbsd.in:158
+#, c-format
 msgid "Found NetBSD kernel: %s\\n"
 msgstr "Виявлено ядро NetBSD: %s\\n"
 
 #: util/grub.d/10_windows.in:70
+#, c-format
 msgid "Windows Vista/7 (loader)"
 msgstr "Windows Vista/7 (завантажувач)"
 
 #: util/grub.d/10_windows.in:74
+#, c-format
 msgid "Windows NT/2000/XP (loader)"
 msgstr "Windows NT/2000/XP (завантажувач)"
 
 #: util/grub.d/10_windows.in:85
+#, c-format
 msgid "Found %s on %s (%s)\\n"
 msgstr "Виявлено %s на %s (%s)\\n"
 
 #: util/grub.d/20_linux_xen.in:97
+#, c-format
 msgid "%s, with Xen %s and Linux %s (recovery mode)"
 msgstr "%s, з Xen %s і Linux %s (режим відновлення)"
 
 #: util/grub.d/20_linux_xen.in:99
+#, c-format
 msgid "%s, with Xen %s and Linux %s"
 msgstr "%s, з Xen %s і Linux %s"
 
 #: util/grub.d/20_linux_xen.in:109
+#, c-format
 msgid "%s, with Xen hypervisor"
 msgstr "%s, з гіпервізором Xen"
 
 #: util/grub.d/20_linux_xen.in:120
+#, c-format
 msgid "Loading Xen %s ..."
 msgstr "Завантаження Xen %s…"
 
 #: util/grub.d/20_linux_xen.in:202 util/grub.d/20_linux_xen.in:246
+#, c-format
 msgid "Xen hypervisor, version %s"
 msgstr "Гіпервізор Xen, версія %s"
 
 #. TRANSLATORS: %s is replaced with an OS name
 #: util/grub.d/20_linux_xen.in:245
+#, c-format
 msgid "Advanced options for %s (with Xen hypervisor)"
 msgstr "Додаткові параметри для %s (з гіпервізором Xen)"
 
 #. TRANSLATORS: it refers to kernel architecture (32-bit)
 #: util/grub.d/30_os-prober.in:47
+#, c-format
 msgid "(32-bit)"
 msgstr "(32-бітове)"
 
 #. TRANSLATORS: it refers to kernel architecture (64-bit)
 #: util/grub.d/30_os-prober.in:50
+#, c-format
 msgid "(64-bit)"
 msgstr "(64-бітове)"
 
 #. TRANSLATORS: it refers on the OS residing on device %s
 #: util/grub.d/30_os-prober.in:53 util/grub.d/30_os-prober.in:125
 #: util/grub.d/30_os-prober.in:172 util/grub.d/30_os-prober.in:242
+#, c-format
 msgid "(on %s)"
 msgstr "(на %s)"
 
 #: util/grub.d/30_os-prober.in:120
+#, c-format
 msgid "Found %s on %s\\n"
 msgstr "Виявлено %s на %s\\n"
 
 #. TRANSLATORS: %s is replaced by OS name.
 #: util/grub.d/30_os-prober.in:270
+#, c-format
 msgid "%s is not yet supported by grub-mkconfig.\\n"
 msgstr "%s ще не підтримується grub-mkconfig.\\n"
 

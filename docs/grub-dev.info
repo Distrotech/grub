@@ -1,7 +1,7 @@
 This is grub-dev.info, produced by makeinfo version 4.13 from
 grub-dev.texi.
 
-This developer manual is for GNU GRUB (version 2.00, 20 June 2013).
+This developer manual is for GNU GRUB (version 2.00, 13 November 2013).
 
    Copyright (C) 1999,2000,2001,2002,2004,2005,2006,2008,2009,2010,2011
 Free Software Foundation, Inc.
@@ -28,7 +28,8 @@ range of architectures.
 
    This edition documents version 2.00.
 
-   This developer manual is for GNU GRUB (version 2.00, 20 June 2013).
+   This developer manual is for GNU GRUB (version 2.00, 13 November
+2013).
 
    Copyright (C) 1999,2000,2001,2002,2004,2005,2006,2008,2009,2010,2011
 Free Software Foundation, Inc.
@@ -2448,40 +2449,40 @@ Index
 
 
 Tag Table:
-Node: Top639
-Node: Getting the source code1712
-Node: Coding style2592
-Node: Naming Conventions2997
-Node: Functions3280
-Node: Variables4147
-Node: Types5253
-Node: Macros5851
-Node: Comments6182
-Node: Multi-Line Comments6944
-Node: Finding your way around7575
-Node: Contributing Changes10772
-Node: Getting started11849
-Node: Typical Developer Experience15895
-Node: When you are approved for write access to project's files16938
-Node: Porting18368
-Node: Error Handling30108
-Node: CIA35168
-Node: BIOS port memory map36240
-Node: Video Subsystem37110
-Node: Video API37582
-Node: Example usage of Video API55836
-Node: Bitmap API57392
-Node: PFF2 Font File Format59923
-Node: Introduction60163
-Node: File Structure61666
-Node: Font Metrics66573
-Node: Graphical Menu Software Design67724
-Node: Introduction_268016
-Node: Startup Sequence68750
-Node: GUI Components69613
-Node: Command Line Window72218
-Node: Copying This Manual73170
-Node: GNU Free Documentation License73426
-Node: Index95838
+Node: Top643
+Node: Getting the source code1720
+Node: Coding style2600
+Node: Naming Conventions3005
+Node: Functions3288
+Node: Variables4155
+Node: Types5261
+Node: Macros5859
+Node: Comments6190
+Node: Multi-Line Comments6952
+Node: Finding your way around7583
+Node: Contributing Changes10780
+Node: Getting started11857
+Node: Typical Developer Experience15903
+Node: When you are approved for write access to project's files16946
+Node: Porting18376
+Node: Error Handling30116
+Node: CIA35176
+Node: BIOS port memory map36248
+Node: Video Subsystem37118
+Node: Video API37590
+Node: Example usage of Video API55844
+Node: Bitmap API57400
+Node: PFF2 Font File Format59931
+Node: Introduction60171
+Node: File Structure61674
+Node: Font Metrics66581
+Node: Graphical Menu Software Design67732
+Node: Introduction_268024
+Node: Startup Sequence68758
+Node: GUI Components69621
+Node: Command Line Window72226
+Node: Copying This Manual73178
+Node: GNU Free Documentation License73434
+Node: Index95846
 
 End Tag Table
